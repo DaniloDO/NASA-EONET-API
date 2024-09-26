@@ -4,7 +4,7 @@ class APIClient {
     constructor(){
         if(!APIClient.instance){
             this.client = axios.create({
-              baseURL: EONET_API_URL,
+              baseURL: process.env.EONET_API_URL,
               timeout: 5000,
               headers: {
                 'Content-Type': 'application/json',
