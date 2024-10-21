@@ -17,7 +17,7 @@ const port = process.env.PORT || 3000;
 app.use(express.json());
 app.use(cookieParser());
 app.use(express.urlencoded({extended: true}));
-app.use('/routes', eonetRouter);
+app.use('/api', eonetRouter);
 app.use('/api/users', userRouter);
 
 app.set("json spaces", 2);
