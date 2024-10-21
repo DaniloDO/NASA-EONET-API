@@ -17,7 +17,7 @@ const userSchema = new Schema({
 
     email_verified_at: {
         type: Date, 
-        // required: [true, 'Timestamp is mandatory']
+        required: [false, 'Timestamp is required']
     },
 
     phone: String,
@@ -29,12 +29,12 @@ const userSchema = new Schema({
 
     createdAt: {
         type: Date,
-        // required: [true, 'Timestamp is mandatory']
+        required: [false, 'Timestamp is required']
     },
 
     updatedAt: {
         type: Date,
-        // required: [true, 'Timestamp is mandatory']
+        required: [false, 'Timestamp is required']
     }
 });
 
