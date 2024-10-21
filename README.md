@@ -122,7 +122,7 @@ POST /api/users/logout
 - **POST /api/users/logout**:
   - Logout a user.
 
-  ## Contributing
+## Contributing
 
 Contributions are welcome! Please fork the repository and submit a pull request for any changes.
 
